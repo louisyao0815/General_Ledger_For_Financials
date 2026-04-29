@@ -1,0 +1,29 @@
+"Account_Code","Account_Name","Category","Normal_Balance","Financial_Statement","FS_Subclass"
+"1000",Cash and Bank,Asset,Debit,Balance Sheet,Current Assets
+"1200",Accounts Receivable,Asset,Debit,Balance Sheet,Current Assets
+"1500",Inventory - Finished Goods,Asset,Debit,Balance Sheet,Current Assets
+"1800","Property, Plant & Equipment",Asset,Debit,Balance Sheet,Non-Current Assets
+"1850",Accumulated Depreciation,Asset,Credit,Balance Sheet,Non-Current Assets
+"2000",Accounts Payable,Liability,Credit,Balance Sheet,Current Liabilities
+"2500",Long-term Debt,Liability,Credit,Balance Sheet,Non-Current Liabilities
+"3000",Common Stock,Equity,Credit,Balance Sheet,Equity
+"3100",Retained Earnings,Equity,Credit,Balance Sheet,Equity
+"4000",Product Sales Revenue,Revenue,Credit,Income Statement,Operating Revenue
+"5000",COGS,Expense,Debit,Income Statement,Cost of Sales
+"6000",Salary Expense,Expense,Debit,Income Statement,Operating Expenses
+"6100",Office Rent,Expense,Debit,Income Statement,Operating Expenses
+"6600",Depreciation Expense,Expense,Debit,Income Statement,Operating Expenses
+"3200",Income Summary - For Close,Equity,N/A,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

@@ -1,0 +1,1 @@
+select SUM(amount) FROM gl_master;
