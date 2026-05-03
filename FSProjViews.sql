@@ -4,12 +4,14 @@
 
 --MASTER GENERAL LEDGER------
 -- public.gl_master source
-
+DROP VIEW IF EXISTS public.gl_master;
 CREATE OR REPLACE VIEW public.gl_master
 AS SELECT gl.journal_id,
     gl.account_code,
     coa.account_name,
     gl.date,
+    EXTRACT(YEAR FROM gl.date) AS year,
+    EXTRACT(MONTH FROM gl.date) AS month,
     gl.entity_id,
     entity_map.entity_name,
     entity_map.region,
@@ -34,7 +36,7 @@ AS SELECT gl.journal_id,
 
 
 -------INCOME STATEMENT DATA EXCLUDING CLOSING ENTRIES----
-
+DROP VIEW IF EXISTS public.is_data;
 CREATE OR REPLACE VIEW public.is_data AS
 	SELECT *
 	FROM gl_master
@@ -44,6 +46,7 @@ CREATE OR REPLACE VIEW public.is_data AS
 	  
 	  
 -------BALANCE SHEET DATA----
+DROP VIEW IF EXISTS public.bs;
 CREATE VIEW bs AS
 	SELECT 
 		fs_subclass, 
