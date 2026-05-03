@@ -1,4 +1,4 @@
-"Entity_ID","Entity_Name","Region","Currency","Country"
+"entity_id","entity_name","region","currency","country"
 E101,Global Tech - HQ,North America,USD,United States
 E202,Global Tech - Canada,North America,CAD,Canada
 E303,Global Tech - Germany,Europe,EUR,Germany
